@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ead9af4-c25b-4166-8198-e9d9f9190058" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviors/PlayerZoneHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviors/ButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PoolObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/ContainerGameObjectEntities.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/SpawnObjectComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/PoolObjectFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/TimerUIView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/TextUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/EnemyComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/FollowComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/DirectionComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ModelEntityComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ISetDataEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PlayerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/MovableComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/AttackCoolDownComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/ButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/EnumDamagedForEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/EnumDamagedForPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/WinGameEvent.cs" />
+        <option value="$USER_HOME$/Desktop/Unuty/ECS/ecs-master/src/EcsSystem.cs" />
+        <option value="$USER_HOME$/Desktop/Unuty/ECS/UniLeo-main/Runtime/World/Systems/WorldInitSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/AttackBlockSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CalculateDistanceWayPointsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DamagedSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/MoveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PatrolSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/TimerTickSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/TimerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PoolObjectFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StaticsHelper/StaticsFunctions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SetTextTimerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/BombFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/BombComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DeathSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CheckWinGameSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SpawnEntityBetweenTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SetTimerBombSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Initialize/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/BombZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/PlayerDamaged.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/PlayerZoneHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/FollowSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/AnimatorSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviors/EnemyZoneHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/WinGameSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/FactoryInitSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/EnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/UITimerTag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants/GeneralConstants.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2M8sYRBQs4gm3tiu4P5P9wLBdAR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build/x64\TestTask.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\games\TestTask\Build\x64" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ead9af4-c25b-4166-8198-e9d9f9190058" name="Default Changelist" comment="" />
+      <created>1677160594017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677160594017</updated>
+      <workItem from="1677160594019" duration="12408000" />
+      <workItem from="1677231012920" duration="11296000" />
+      <workItem from="1677312507668" duration="13683000" />
+      <workItem from="1677392728855" duration="17860000" />
+      <workItem from="1677429329054" duration="5354000" />
+      <workItem from="1677496488553" duration="10981000" />
+      <workItem from="1677587531392" duration="17474000" />
+      <workItem from="1677649019075" duration="16111000" />
+      <workItem from="1677673485052" duration="16213000" />
+      <workItem from="1677728093599" duration="9895000" />
+      <workItem from="1677760330388" duration="14447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1677161306044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1677161306044" />
+    <state x="571" y="86" key="RiderGenerateDialog" timestamp="1677730091871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="86" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1677730091871" />
+    <state x="277" y="60" key="SettingsEditor" timestamp="1677248047687">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1677248047687" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1677779987453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1677779987453" />
+    <state x="449" y="0" width="637" height="824" key="find.popup" timestamp="1677773536407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="0" width="637" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1677773536407" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1677761781365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1677761781365" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1677679247859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1677679247859" />
+  </component>
+</project>

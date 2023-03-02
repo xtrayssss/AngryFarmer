@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - WayPoint
+  - Bomb
+  - TimerUI
+  - WinBoard
+  - LevelCanvas
+  - ContainerEnemy
+  - RestartGameButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemies
+  - Bomb
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Stones
+    uniqueID: 786529773
+    locked: 0
+  - name: Enemies
+    uniqueID: 2697443725
+    locked: 0
+  - name: Plaeyr
+    uniqueID: 1502235521
+    locked: 0
