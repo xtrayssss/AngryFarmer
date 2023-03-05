@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Factories
 {
-    internal class PlayerFactory : IFactory
+    internal class PlayerEntityFactory : IEntityFactory
     {
         public EcsEntity GetNewEntity(EcsEntity entity, EcsWorld world, int i)
         {

@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealth: 1
   _damagesEntity: 0a000000
+  TimerRespawn: 3
+  TimerBombDestroy: 5

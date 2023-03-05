@@ -2,7 +2,6 @@
 using Constants;
 using Leopotam.Ecs;
 using StaticsHelper;
-using UnityEngine;
 
 namespace Systems
 {
@@ -12,6 +11,7 @@ namespace Systems
         private EcsFilter<PlayerComponent, DeathEvent> _playerFilter;
         private EcsFilter<EnemyComponent, DeathEvent> _enemyFilter;
         private EcsFilter<BombComponent, DeathEvent> _bombFilter;
+        private EcsFilter<TimerComponent> _timersFilter;
 
         public void Run()
         {
@@ -27,9 +27,17 @@ namespace Systems
                 ref var playerComponent = ref _playerFilter.Get1(playerIndex);
 
                 playerComponent.Transform.gameObject.SetActive(false);
-
+               
                 StaticsFunctions.InstantiateUIObjectUnderParent(GeneralConstants.LooseGamePanelResourcesName,
                     GeneralConstants.LevelCanvasTag);
+                
+                foreach (var timerIndex in _timersFilter)
+                {
+                    ref var timerEntity = ref _timersFilter.GetEntity(timerIndex);
+
+                    timerEntity.Del<TimerComponent>();
+                }
+
             }
 
             foreach (var bombIndex in _bombFilter)

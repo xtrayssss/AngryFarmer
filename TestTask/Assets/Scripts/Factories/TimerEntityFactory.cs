@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Factories
 {
-    internal class TimerFactory : IFactory
+    internal class TimerEntityFactory : IEntityFactory
     {
         public EcsEntity GetNewEntity(EcsEntity entity, EcsWorld world, int i)
         {

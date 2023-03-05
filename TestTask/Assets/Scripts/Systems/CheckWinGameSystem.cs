@@ -7,11 +7,15 @@ namespace Systems
     {
         private EcsFilter<TimerComponent, UITimerTag> _timerFilter;
 
+        private EcsFilter<TimerDestroyComponent> _timerDestroyFilter;
+
         private EcsFilter<PlayerTag> _playerFilter;
 
         private EcsEntity _playerEntity;
 
         private EcsEntity _timerEntity;
+        private EcsEntity _timerDestroyEntity;
+
 
         public void Run()
         {
@@ -32,11 +36,18 @@ namespace Systems
                     {
                         _playerEntity.Get<WinGameEvent>();
                         _timerEntity.Del<TimerComponent>();
+                        _timerDestroyEntity.Del<TimerDestroyComponent>();
                     }
                 }
             }
             else
             {
+                foreach (var timerDestroyIndex in _timerDestroyFilter)
+                {
+                    _timerDestroyEntity = _timerDestroyFilter.GetEntity(timerDestroyIndex);
+                    _timerDestroyEntity.Del<TimerDestroyComponent>();
+                }
+
                 _timerEntity.Del<TimerComponent>();
             }
         }

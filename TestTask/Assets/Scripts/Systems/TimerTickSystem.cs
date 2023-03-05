@@ -7,6 +7,9 @@ namespace Systems
     internal class TimerTickSystem : IEcsRunSystem
     {
         private EcsFilter<TimerComponent> _timerFilter;
+        private EcsFilter<TimerDestroyComponent> _timerDestroyFilter;
+        private EcsFilter<TimerRespawnComponent> _timerRespawnFilter;
+
         public void Run()
         {
             foreach (var timerIndex in _timerFilter)

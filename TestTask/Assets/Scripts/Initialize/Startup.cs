@@ -1,10 +1,7 @@
 using Systems;
 using Components;
 using Leopotam.Ecs;
-using StaticsHelper;
 using UnityEngine;
-using UnityEngine.Serialization;
-using Voody.UniLeo;
 
 namespace Initialize
 {
@@ -18,7 +15,8 @@ namespace Initialize
         private EcsSystems _systemFixedUpdate;
         private EcsSystems _systemUpdate;
 
-        #endregion    
+        #endregion
+
         private void Start()
         {
             _world = new EcsWorld();
@@ -29,31 +27,15 @@ namespace Initialize
 
             _systemFixedUpdate = new EcsSystems(_world);
 
-
-            _initSystem.ConvertScene();
-
-            _systemUpdate.ConvertScene();
-
-            _systemFixedUpdate.ConvertScene();
-
-
             AddSystems();
 
             AddOneFrames();
-
-
-            AddInjection();
-
 
             _initSystem.Init();
             _systemUpdate.Init();
             _systemFixedUpdate.Init();
         }
-
-        private void AddInjection()
-        {
-        }
-
+        
         private void AddOneFrames()
         {
             _systemUpdate
@@ -73,10 +55,11 @@ namespace Initialize
                 .Add(new AttackBlockSystem())
                 .Add(new TimerTickSystem())
                 .Add(new CheckWinGameSystem())
+                .Add(new DeathEntityCheckerSystem())
                 .Add(new WinGameSystem())
                 .Add(new SpawnEntityBetweenTime())
                 .Add(new SetTextTimerUI())
-                .Add(new SetTimerBombSystem());
+                .Add(new SetTimersBombSystem());
             _systemFixedUpdate
                 .Add(new PlayerInputSystem())
                 .Add(new MoveSystem())

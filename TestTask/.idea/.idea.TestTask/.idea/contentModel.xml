@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TestTask.-100076043.00" t="ExcludeRecursive" />
+    <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TestTask.1540345181.00" t="ExcludeRecursive" />
     <e p="C:\Users\stepa\Desktop\Unuty\ECS\ecs-master" t="Include">
       <e p="Leopotam.Ecs.asmdef" t="Include" />
       <e p="package.json" t="Include" />
@@ -37,7 +37,7 @@
         </e>
       </e>
     </e>
-    <e p="D:\games\TestTask" t="IncludeRecursive">
+    <e p="D:\games\AngryFarmer\TestTask" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -47,7 +47,6 @@
             <e p="AttackCoolDownComponent.cs" t="Include" />
             <e p="BlockAttack.cs" t="Include" />
             <e p="BombComponent.cs" t="Include" />
-            <e p="BombSetTimerEvent.cs" t="Include" />
             <e p="DamageComponent.cs" t="Include" />
             <e p="DeathEvent.cs" t="Include" />
             <e p="DirectionComponent.cs" t="Include" />
@@ -62,6 +61,8 @@
             <e p="PlayerTag.cs" t="Include" />
             <e p="SpawnObjectComponent.cs" t="Include" />
             <e p="TimerComponent.cs" t="Include" />
+            <e p="TimerDestroyComponent.cs" t="Include" />
+            <e p="TimerRespawnComponent.cs" t="Include" />
             <e p="TimerUIComponent.cs" t="Include" />
             <e p="UITimerTag.cs" t="Include" />
             <e p="WinGameEvent.cs" t="Include" />
@@ -75,11 +76,11 @@
             <e p="EnumDamagedForPlayer.cs" t="Include" />
           </e>
           <e p="Factories" t="Include">
-            <e p="BombFactory.cs" t="Include" />
-            <e p="EnemyFactory.cs" t="Include" />
-            <e p="PlayerFactory.cs" t="Include" />
-            <e p="PoolObjectFactory.cs" t="Include" />
-            <e p="TimerFactory.cs" t="Include" />
+            <e p="BombEntityFactory.cs" t="Include" />
+            <e p="EnemyEntityFactory.cs" t="Include" />
+            <e p="PlayerEntityFactory.cs" t="Include" />
+            <e p="PoolObjectEntityFactory.cs" t="Include" />
+            <e p="TimerEntityFactory.cs" t="Include" />
           </e>
           <e p="Initialize" t="Include">
             <e p="Startup.cs" t="Include" />
@@ -87,7 +88,7 @@
           </e>
           <e p="Interfaces" t="Include">
             <e p="IAnimationComponent.cs" t="Include" />
-            <e p="IFactory.cs" t="Include" />
+            <e p="IEntityFactory.cs" t="Include" />
           </e>
           <e p="Monobehaviors" t="Include">
             <e p="BombData.cs" t="Include" />
@@ -113,6 +114,7 @@
             <e p="CalculateDistanceWayPointsSystem.cs" t="Include" />
             <e p="CheckWinGameSystem.cs" t="Include" />
             <e p="DamagedSystem.cs" t="Include" />
+            <e p="DeathEntityCheckerSystem.cs" t="Include" />
             <e p="DeathSystem.cs" t="Include" />
             <e p="FactoryInitSystem.cs" t="Include" />
             <e p="FollowSystem.cs" t="Include" />
@@ -120,7 +122,7 @@
             <e p="PatrolSystem.cs" t="Include" />
             <e p="PlayerInputSystem.cs" t="Include" />
             <e p="SetTextTimerUI.cs" t="Include" />
-            <e p="SetTimerBombSystem.cs" t="Include" />
+            <e p="SetTimersBombSystem.cs" t="Include" />
             <e p="SpawnEntityBetweenTime.cs" t="Include" />
             <e p="TimerTickSystem.cs" t="Include" />
             <e p="WayPoint.cs" t="Include" />

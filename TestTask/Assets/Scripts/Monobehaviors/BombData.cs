@@ -24,5 +24,9 @@ namespace Monobehaviors
             get => _health;
             set => _health = value;
         }
+
+        public float TimerRespawn;
+
+        public float TimerBombDestroy;
     }
 }

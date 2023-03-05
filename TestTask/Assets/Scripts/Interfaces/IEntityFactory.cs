@@ -2,7 +2,7 @@
 
 namespace Interfaces
 {
-    public interface IFactory
+    public interface IEntityFactory
     {
         public EcsEntity GetNewEntity(EcsEntity entity, EcsWorld world, int i);
     }

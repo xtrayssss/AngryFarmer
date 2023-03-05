@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace Factories
 {
-    public class EnemyFactory : IFactory
+    public class EnemyEntityFactory : IEntityFactory
     {
         private readonly string[] _paths =
         {
@@ -36,11 +36,14 @@ namespace Factories
 
             enemyView.Entity = entity;
 
+            SetAllowPatrolling(ref entity, enemyView);
+
             entity.Get<DirectionComponent>();
 
-            entity.Get<ModelEntityComponent>().Rigidbody2D = enemyGO.GetComponent<Rigidbody2D>();
+            ref var modelEntityComponent = ref entity.Get<ModelEntityComponent>();
 
-            SetAllowPatrolling(ref entity, enemyView);
+            modelEntityComponent.Rigidbody2D = enemyGO.GetComponent<Rigidbody2D>();
+            modelEntityComponent.EntityModel = enemyGO.gameObject.transform;
 
             ref var enemyComponent = ref entity.Get<EnemyComponent>();
 

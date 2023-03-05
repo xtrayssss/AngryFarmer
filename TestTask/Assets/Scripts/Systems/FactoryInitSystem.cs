@@ -10,11 +10,11 @@ namespace Systems
     {
         private EcsWorld _world;
 
-        private readonly IFactory _enemyFactory = new EnemyFactory();
-        private readonly IFactory _playerFactory = new PlayerFactory();
-        private readonly IFactory _bombFactory = new BombFactory();
-        private readonly IFactory _timerUIFactory = new TimerFactory();
-        private readonly IFactory _poolObject = new PoolObjectFactory();
+        private readonly IEntityFactory _enemyEntityFactory = new EnemyEntityFactory();
+        private readonly IEntityFactory _playerEntityFactory = new PlayerEntityFactory();
+        private readonly IEntityFactory _bombEntityFactory = new BombEntityFactory();
+        private readonly IEntityFactory _timerUIEntityFactory = new TimerEntityFactory();
+        private readonly IEntityFactory _poolObject = new PoolObjectEntityFactory();
 
         private EcsEntity _enemyEntity;
         private EcsEntity _bombEntity;
@@ -26,12 +26,12 @@ namespace Systems
         {
             for (int i = 0; i < GeneralConstants.AmountEnemies; i++)
             {
-                _enemyEntity = _enemyFactory.GetNewEntity(_enemyEntity, _world, i);
+                _enemyEntity = _enemyEntityFactory.GetNewEntity(_enemyEntity, _world, i);
             }
 
             for (int i = 0; i < GeneralConstants.AmountBombs; i++)
             {
-                _bombEntity = _bombFactory.GetNewEntity(_bombEntity, _world, i);
+                _bombEntity = _bombEntityFactory.GetNewEntity(_bombEntity, _world, i);
             }
 
             for (int i = 0; i < GeneralConstants.AmountPoolObjects; i++)
@@ -39,9 +39,9 @@ namespace Systems
                 _poolObjectEntity = _poolObject.GetNewEntity(_poolObjectEntity, _world, i);
             }
 
-            _playerEntity = _playerFactory.GetNewEntity(_playerEntity, _world, 0);
+            _playerEntity = _playerEntityFactory.GetNewEntity(_playerEntity, _world, 0);
 
-            _timerUIEntity = _timerUIFactory.GetNewEntity(_timerUIEntity, _world, 0);
+            _timerUIEntity = _timerUIEntityFactory.GetNewEntity(_timerUIEntity, _world, 0);
         }
     }
 }
